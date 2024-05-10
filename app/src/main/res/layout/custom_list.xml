@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout">
+
+
+    <TextView
+        android:id="@+id/textViewTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/taskName"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/textViewTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/taskDes"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/textViewTaskPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/taskPriority"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/textViewTaskDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/taskDeadline"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+</LinearLayout>

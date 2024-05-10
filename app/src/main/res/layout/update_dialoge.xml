@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/updateTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/taskNameHint"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/updateTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/taskDesHint"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/updateTaskPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/taskPriorityHint"
+        android:minHeight="48dp"
+        android:inputType="number"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/updateTaskDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/taskDeadlineHint"
+        android:minHeight="48dp"
+        android:inputType="date"
+        tools:ignore="Autofill,TextFields" />
+</LinearLayout>

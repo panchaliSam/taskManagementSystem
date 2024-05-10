@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Task Management System</string>
+    <string name="labelName">Task Management System</string>
+    <string name="addBtnDes">Add Btn Des</string>
+    <string name="taskId">task Id: </string>
+    <string name="taskIdHint">1</string>
+    <string name="taskName">task Name: </string>
+    <string name="taskNameHint">MAD LAB04</string>
+    <string name="taskDes">Description: </string>
+    <string name="taskDesHint">Create Task Management App</string>
+    <string name="taskPriority">Priority</string>
+    <string name="taskPriorityHint">1</string>
+    <string name="taskDeadline">Deadline: </string>
+    <string name="taskDeadlineHint">Enter the date.</string>
+    <string name="add">Add</string>
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+</resources>
