@@ -7,6 +7,15 @@
     android:layout_height="match_parent">
 
     <EditText
+        android:id="@+id/updateTaskId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/taskNameHint"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
         android:id="@+id/updateTaskName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

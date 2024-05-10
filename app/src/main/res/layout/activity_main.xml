@@ -173,6 +173,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tableLayout2">
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
             android:layout_width="383dp"
             android:layout_height="match_parent" />
 

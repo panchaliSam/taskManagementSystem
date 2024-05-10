@@ -2,7 +2,6 @@ package com.example.taskmanagementsystem.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.util.Date
 
 @Entity(tableName = "TaskTable")
 data class Task(
@@ -10,5 +9,5 @@ data class Task(
     val taskName: String,
     val taskDes: String,
     val priority: Int,
-    val deadLine: Date
+    val deadLine: String
 )
