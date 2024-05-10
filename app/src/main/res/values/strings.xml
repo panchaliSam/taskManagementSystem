@@ -4,7 +4,7 @@
     <string name="addBtnDes">Add Btn Des</string>
     <string name="taskId">task Id: </string>
     <string name="taskIdHint">1</string>
-    <string name="taskName">task Name: </string>
+    <string name="taskName">Task Name: </string>
     <string name="taskNameHint">MAD LAB04</string>
     <string name="taskDes">Description: </string>
     <string name="taskDesHint">Create Task Management App</string>

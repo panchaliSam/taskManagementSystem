@@ -13,26 +13,29 @@
 
     <TextView
         android:id="@+id/label_book_library_system"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/material_dynamic_primary40"
         android:text="@string/labelName"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"/>
+        app:layout_constraintVertical_bias="0.093" />
 
     <TableLayout
         android:id="@+id/tableLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/label_book_library_system">
+        app:layout_constraintTop_toBottomOf="@id/label_book_library_system"
+        app:layout_constraintTop_toTopOf="parent">
 
         <!--        <TableRow-->
         <!--            android:layout_width="match_parent"-->
